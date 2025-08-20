@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://picsum.photos/600/400?random=1",
+    "title": "Mastering React in 2025",
+    "author": "Jonas Miller",
+    "author_img": "https://i.pravatar.cc/150?img=11",
+    "posted_date": "2025-08-15",
+    "reading_time": 6,
+    "hashtags": ["#React", "#WebDevelopment", "#JavaScript"]
+  },
+  {
+    "id": 2,
+    "cover": "https://picsum.photos/600/400?random=2",
+    "title": "The Future of AI and Developers",
+    "author": "Samantha Lee",
+    "author_img": "https://i.pravatar.cc/150?img=22",
+    "posted_date": "2025-08-12",
+    "reading_time": 8,
+    "hashtags": ["#AI", "#Future", "#TechTrends"]
+  },
+  {
+    "id": 3,
+    "cover": "https://picsum.photos/600/400?random=3",
+    "title": "Scaling Startups with Next.js",
+    "author": "David Kim",
+    "author_img": "https://i.pravatar.cc/150?img=33",
+    "posted_date": "2025-08-10",
+    "reading_time": 5,
+    "hashtags": ["#NextJS", "#Startup", "#Scalability"]
+  },
+  {
+    "id": 4,
+    "cover": "https://picsum.photos/600/400?random=4",
+    "title": "10 Design Principles for Modern UI",
+    "author": "Emily Johnson",
+    "author_img": "https://i.pravatar.cc/150?img=44",
+    "posted_date": "2025-08-08",
+    "reading_time": 7,
+    "hashtags": ["#UIDesign", "#UX", "#Creativity"]
+  },
+  {
+    "id": 5,
+    "cover": "https://picsum.photos/600/400?random=5",
+    "title": "Why Developers Should Learn TypeScript",
+    "author": "Michael Brown",
+    "author_img": "https://i.pravatar.cc/150?img=55",
+    "posted_date": "2025-08-05",
+    "reading_time": 9,
+    "hashtags": ["#TypeScript", "#Coding", "#BestPractices"]
+  }
+]
