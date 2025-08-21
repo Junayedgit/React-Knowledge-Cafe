@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
+import { CiBookmark } from "react-icons/ci";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark }) => {
   const {
     title,
     cover,
@@ -26,7 +27,10 @@ const Blog = ({ blog }) => {
           </div>
         </div>
         <div>
-          <span>{reading_time} min read</span>
+          <span>{reading_time} min read</span>{" "}
+          <button onClick={handleAddToBookmark} className="ml-2 cursor-pointer">
+            <CiBookmark></CiBookmark>
+          </button>
         </div>
       </div>
       <h1 className="text-4xl font-bold">{title}</h1>
