@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { CiBookmark } from "react-icons/ci";
 
-const Blog = ({ blog, handleAddToBookmark }) => {
+const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   const {
     title,
     cover,
@@ -38,6 +38,12 @@ const Blog = ({ blog, handleAddToBookmark }) => {
       </div>
       <h1 className="text-4xl font-bold">{title}</h1>
       <span>{hashtags}</span>
+      <button
+        className="flex justify-start cursor-pointer text-blue-600  underline mb-8"
+        onClick={() => handleMarkAsRead(reading_time)}
+      >
+        Mark as read
+      </button>
     </div>
   );
 };
