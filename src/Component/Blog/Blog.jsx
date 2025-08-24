@@ -3,6 +3,7 @@ import { CiBookmark } from "react-icons/ci";
 
 const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   const {
+    id,
     title,
     cover,
     author,
@@ -40,7 +41,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
       <span>{hashtags}</span>
       <button
         className="flex justify-start cursor-pointer text-blue-600  underline mb-8"
-        onClick={() => handleMarkAsRead(reading_time)}
+        onClick={() => handleMarkAsRead(id, reading_time)}
       >
         Mark as read
       </button>
